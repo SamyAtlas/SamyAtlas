@@ -155,7 +155,7 @@ h2 {
     z-index: -1;
 }
 
-.orange-squiggles img {
+.orange-squiggles {
     height: 400px;
     width: 400px;
 
@@ -165,7 +165,16 @@ h2 {
     z-index: 0;
 }
 
+   
+
 .header {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    font-style: italic;
+
+    padding-top: 27px;
+
     background-color: #898121;
     width: 75%;
     height: 5em;
@@ -176,15 +185,7 @@ h2 {
     top: -175px;
     z-index: 2;
     margin-bottom: 25px;
-}
 
-.header h2 {
-    text-align: center;
-    vertical-align: middle;
-    font-size: 20px;
-    font-style: italic;
-
-    padding-top: 27px;
 }
 
 h4 {
@@ -206,7 +207,7 @@ h4 {
     top: -175px;
 }
 
-.top-btn button {
+.top-btn {
     background-color: #E8751A;
     border-color: #E8751A;
     border-radius: 10px;
